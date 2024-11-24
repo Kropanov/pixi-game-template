@@ -1,0 +1,25 @@
+{
+  "name": "pixi-game-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "update": "yarn upgrade-interactive --latest",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pixi/sound": "^6.0.1",
+    "@pixi/ui": "^2.1.5",
+    "axios": "^1.7.7",
+    "mitt": "^3.0.1",
+    "pixi.js": "^8.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}
